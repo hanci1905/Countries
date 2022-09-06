@@ -38,8 +38,7 @@ that does the database operations.
 
 * In this project, I used an activity and three fragments for UI. With navigation, user can switch between fragments.
 
-![](../../../../navigation.png)
-
+<img width="334" alt="saved2" src="[https://user-images.githubusercontent.com/23053158/149675091-18eed16b-1a04-4bbb-a514-7302a11b375d.png](https://github.com/hanci1905/Countries/blob/main/navigation.png)">
 * At home fragment, view as an observer, observes live data from `HomeViewModel.kt`. With generated Retrofit object,
 limited number of data information is retrieved at viewmodel. 
 ```kotlin
@@ -59,7 +58,7 @@ limited number of data information is retrieved at viewmodel.
     }
 ```
 * Adapter is used to make the suitable for RecyclerView.
-![](../../../../Screenshot 2022-09-05 225812.png)
+<img width="334" alt="saved2" src="[https://user-images.githubusercontent.com/23053158/149675091-18eed16b-1a04-4bbb-a514-7302a11b375d.png](https://github.com/hanci1905/Countries/blob/main/Screenshot%202022-09-05%20225812.png)">
 
 ## Ongoing
 ### Bugs
