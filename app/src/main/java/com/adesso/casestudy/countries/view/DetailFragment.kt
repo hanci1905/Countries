@@ -75,4 +75,8 @@ class DetailFragment : Fragment() {
         viewModel.navCallback.onDetailFragmentVisible()
         super.onPause()
     }
+    override fun onSaveInstanceState(outState: Bundle) {
+        viewModel.navCallback.onDetailFragmentVisible()
+        super.onSaveInstanceState(outState)
+    }
 }
